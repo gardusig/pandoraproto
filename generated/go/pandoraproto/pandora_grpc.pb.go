@@ -4,7 +4,7 @@
 // - protoc             v4.24.3
 // source: proto/pandora.proto
 
-package _go
+package pandoraproto
 
 import (
 	context "context"
