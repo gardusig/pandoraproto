@@ -11,6 +11,7 @@ service PandoraService {
 
 message GuessNumberRequest {
   int64 number = 1;
+  int32 level = 2;
 }
 
 message GuessNumberResponse {
