@@ -16,7 +16,7 @@ message GuessNumberRequest {
 
 message GuessNumberResponse {
   string result = 1;
-  optional string LockedPandoraBox = 2;
+  optional LockedPandoraBox lockedPandoraBox = 2;
 }
 
 message LockedPandoraBox {
